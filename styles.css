@@ -1,0 +1,398 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.background {
+  
+    position : absolute;
+  
+     display:;
+          top: 0;
+          left: 0;
+          z-index: 0;
+}
+html{
+    font-size:10px;
+    color:rgb(255, 255, 255);
+    scroll-behavior: smooth;
+    
+}
+body{
+    width:100%;
+    height:50%;
+    
+    background-color:white;
+    position:static;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color:rgb(238, 238, 238);
+}
+.home{
+    background: url("capture2.png");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    ;
+    
+    height:70rem;
+    width:100%;
+
+    
+}
+
+#cheader{
+    height:5rem;
+    display:flex;
+    flex-direction: row;
+    position: fixed;
+    background: transparent;
+    align-items: center;
+    width: 100%;
+    box-shadow: 2px 2px 10px black;;
+   
+}
+.nav-list{
+    display:flex;
+    padding-left: 2rem;
+    flex-direction: row;
+    justify-content: end;
+    list-style-type: none;
+    padding-right:2px;
+}
+.nav-link{
+    padding-left:5px;
+    color:rgb(221, 217, 217); 
+    font-size: 2rem;
+    font-weight:600;
+    font-family:'Courier New', Courier, monospace ;
+    
+}
+.nav-link:hover{
+color:rgb(175, 175, 175);
+}
+
+li{
+    margin:0.2rem;
+}
+
+
+.namesection{
+    
+    padding-top:20rem;
+    height: 70rem;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-items:center;
+    text-align: center;
+    overflow:hidden
+}
+.name{
+    font-size: 7rem;
+    font-family:'Fredericka the Great';
+    color:rgb(255, 255, 255);
+    font-weight: 100;
+   
+    text-shadow: 1px 1px 10px black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-items:center;
+    text-align: center;
+    
+    
+}
+
+
+.typewrite{
+    color:rgb(0, 0, 0);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+    font-weight: 1000;
+}
+.typewritecont{
+    margin-top:5rem;
+}
+
+.short{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cut{
+    display: flex;
+    padding: 1rem;
+    border-radius: 0px;
+    flex-direction: row;
+    margin: 1.5rem;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    
+    border-radius:1rem;
+    transition: all 0.5s;
+    color:rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    
+}
+.cut:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+   
+}
+.intro{
+    font-size: 3rem;
+    color:rgb(224, 224, 226);
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace ;
+}
+.intro-con{
+    margin-top: 4rem;
+    font-size: 4rem;
+    color:rgb(255, 255, 255);
+    font-weight: 300;
+    font-family:  monospace ;
+}
+.tr{
+    font-size: 5rem;
+}
+
+
+.card1{
+    width:70rem;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    
+    border-radius:10px ;
+    padding:1rem;
+    margin-bottom:0rem;
+}
+.card3{
+    
+    width:70rem;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 15px rgb(0, 0, 0);
+    border-radius:0px ;
+    padding:1rem;
+    margin-bottom:0rem;
+}
+.card4{
+    width:70rem;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 15px rgb(0, 0, 0);
+    border-radius:0px ;
+    padding:1rem;
+    margin-bottom:0rem;
+}
+
+
+.about{
+    height:auto;
+    padding:4rem;
+    margin-left:0rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+ 
+    background: url(dot-grid.png);
+}
+
+.about h1{
+    margin-top:5rem;
+    font-size: 4rem;
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+.about h3{
+    margin-top:5rem;
+    font-size: 2rem;
+    color:rgb(73, 173, 6);
+    word-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.about p{
+    margin-top:5rem;
+    font-size: 2rem;
+    color:rgb(53, 52, 52);
+    word-spacing: 2px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 5px;;
+}
+
+.project{
+    height:50rem;
+    background: url("dot-grid.png");
+ display: flex;
+flex-direction: row;
+margin-left:0rem;
+justify-content: center;
+align-items: center;
+flex-wrap:wrap;
+width:100%;
+margin-top:2rem;
+
+}
+.project img{
+    height:35rem;
+    width:35rem;
+
+}
+
+.projects-container{
+    margin:1rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.projects-container h1{
+    font-size: 4rem;
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom:2rem;
+}
+
+    
+.card2{
+    width:auto;
+    transform:scale(0.5,0.5);
+    height: 53rem;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px black;
+    border-radius:10px ;
+    padding:1rem;
+    margin-bottom:2rem;
+}
+
+.projects-container h3{
+    font-size: 2rem;
+    color: rgb(9, 134, 25);
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 2rem;
+
+}
+.projects-container p{
+    font-size: 2rem;
+    color: rgb(38, 36, 201);
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 2rem;
+
+}
+.expand{
+    cursor: pointer;
+}
+.contact{
+    height:50rem;
+    width:100%;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.contact h1{
+    font-size: 5rem;
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+}
+.contact-container{
+    
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: row;
+        
+        justify-content: center;
+        align-items: center;
+    
+}
+.contact-container-di{
+    display: flex;
+    padding: 1rem;
+    border-radius: 2px;
+    flex-direction: row;
+    margin: 1rem;
+    font-size: 4.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    
+    border-radius:50%;
+    transition: all 0.5s;
+    color:rgb(55, 190, 50);
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.contact h2{
+    color:rgb(36, 187, 44);
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+}
+.contactformcard{
+    height: 40rem;
+    width: auto;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.cfi{
+    height:4rem;
+    width: 30rem;
+    margin-bottom:10px;
+    margin-top:5px;
+    border-radius: 8px;
+    border:1px solid rgb(255, 255, 255);
+}
+.cfit{
+    height: 8rem;
+    width:30rem;
+    border-radius:5px
+}
+.button{
+    padding:1rem;
+    width:100px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: all 0.5s;
+    
+}
+.button:hover{
+    cursor: pointer;
+    color:white;
+    background-color:rgb(0, 0, 0);
+}
+.linkedin:hover{
+    color: rgb(48, 71, 175);
+}
+.twitter:hover{
+    color:rgb(28, 139, 212);
+}
+.github:hover{
+    color:white;
+}
+.gmail:hover{
+    color:red;
+}
