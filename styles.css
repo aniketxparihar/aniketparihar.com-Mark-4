@@ -225,7 +225,15 @@ li{
 }
 .about p{
     margin-top:5rem;
-    font-size: 2rem;
+    font-size: 3rem;
+    color:rgb(53, 52, 52);
+    word-spacing: 2px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 5px;;
+}
+.about a{
+    margin-top:5rem;
+    font-size: 1.5rem;
     color:rgb(53, 52, 52);
     word-spacing: 2px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
