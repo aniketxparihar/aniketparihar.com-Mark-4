@@ -11,7 +11,7 @@ body{
     background-size: cover;
     ;
     
-    height:70rem;
+    height:50rem;
     width:100%;
 }
 .blog-head{
@@ -26,6 +26,7 @@ color: rgb(0, 0, 0);
     flex-direction: column;
     margin-left: 10rem;
     margin-right:10rem;
+    margin-top:5rem;
     align-items: flex-start;
     padding-left: 20rem;
     padding-right:20rem;
@@ -33,7 +34,4 @@ color: rgb(0, 0, 0);
     color: rgb(112, 114, 116);
     border-radius: 2rem;
     
-}
-.brief{
-    justify-content: center;
 }
