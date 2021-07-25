@@ -6,13 +6,7 @@
    color: rgb(189, 189, 189);
 }
 body{
-   background: url("capture2.png");
-    background-repeat:no-repeat ;
-    background-size: cover;
-    ;
-    
-    height:50rem;
-    width:100%;
+  
 }
 .blog-head{
 font-size: 2rem;
