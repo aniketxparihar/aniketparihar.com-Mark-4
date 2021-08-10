@@ -1,14 +1,13 @@
 h1{
     font-size: 5rem;
 }
-.container{
-    display:flex;
-    flex-direction: column;
+.heading{
+    display: flex;
     align-items: center;
     justify-content: center;
-    height:auto;
-    
+    flex-direction: column;
 }
+
 .projects{
      display:flex;
     flex-wrap: wrap;
@@ -30,6 +29,7 @@ h1{
     box-shadow: 1px 1px 0px rgb(0, 0, 0);
     cursor: pointer;
     overflow: hidden;
+    transform:scale(0.9);
     
 }
 
