@@ -7,15 +7,21 @@ h1{
     justify-content: center;
     flex-direction: column;
 }
+.back{
+    background-color: rgb(240, 164, 24);
+    padding:1rem;
+    color: rgb(255, 255, 255);
+    border-radius:5px;
+}
 
-.projects{
+.blogs{
      display:flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     
 }
-.project{
+.blog{
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -26,11 +32,14 @@ h1{
     width:20rem;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 1px 1px 0px rgb(0, 0, 0);
+    border:0.5px solid black;
     cursor: pointer;
     overflow: hidden;
-    transform:scale(0.9);
+    transform:scale(1);
     
+}
+img{
+    height:300px;
 }
 
 .back{
@@ -38,16 +47,16 @@ h1{
 }
 a{
     text-decoration: none;
-    color:rgb(243, 193, 54);
+    color:white;
 }
 body{
     font-family: monospace;
-    background: url(dot-grid.png);
+    
 }
 h2{
     text-decoration:solid;
     font-size:1.3rem;
-    color:rgb(243, 193, 54);
+    color:rgb(0, 0, 0);
 }
 h3{
    

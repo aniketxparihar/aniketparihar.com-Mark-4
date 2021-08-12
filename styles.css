@@ -168,7 +168,10 @@ li{
     font-size: 5rem;
 }
 
-
+img{
+    height:300px;
+    
+}
 .card1{
     width:70rem;
     height: auto;
