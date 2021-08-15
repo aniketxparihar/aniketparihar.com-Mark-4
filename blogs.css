@@ -30,12 +30,12 @@ h1{
     padding:1rem;
     margin:2rem;
     height:16rem;
-    width:22rem;
+    width:20rem;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
     cursor: pointer;
     border-bottom:5px solid rgb(8, 113, 145);
-    transform:scale(0.9);
+    
 }
 img{
     height:300px;
@@ -51,8 +51,13 @@ a{
     color:white;
 }
 .bloglink{
-    color: rgb(4, 131, 250);
+    color: rgb(255, 255, 255);
     font-weight: 700;
+    padding:0.5rem;
+    width:6rem;
+    border-radius: 5px;
+    background-color: rgb(27, 130, 214);
+    
     
 }
 body{
