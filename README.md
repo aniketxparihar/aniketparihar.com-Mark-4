@@ -1,4 +1,4 @@
 # aniketparihar.com
 Personal Portfolio Website
-NeoG Camp portfolio website assignment
+Made using HTML,CSS and JS
 
