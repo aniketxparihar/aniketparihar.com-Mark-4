@@ -1,12 +1,14 @@
+
+
 h1{
     font-size: 3rem;
     font-family: monospace;
-    border-bottom:5px solid blue;
+    border-bottom:5px solid rgb(0, 119, 255);
 }
 
 .projects{
      display:flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     
@@ -32,53 +34,55 @@ img{
     font-size:0.9rem;
     margin-left:3rem;
     transform:scale(0.9);
-     display:flex;
+    display:flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding:3rem;
+    padding:1rem;
     margin:1rem;
-    height:10rem;
-    width:25rem;
-    background: rgb(255, 255, 255);
-    border:0.5px solid rgb(114, 114, 114);
+    height:24rem;
+    width:22rem;
     border-bottom:5px solid rgb(14, 100, 139);
     border-radius:5px;
 
 }
 h2{
+   
     font-size:1.4rem;
 }
 .tag-container{
      display:flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 .tags{
-    padding:0.7rem;
-    margin:0.7rem;
+    padding:0.3rem;
+    margin-bottom:0.5rem;
+    margin-right:0.5rem;
+    width:8rem;
+    text-align: center;
     background-color: rgb(19, 191, 214);
+    box-shadow:1px 1px 8px rgb(19, 191, 214);
     border-radius: 5px;
 }
+
 body{
     font-family: monospace;
   
 }
 .links{
     display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    width:10rem;
 }
+
 links,h3{
-    margin:1rem;
+    margin-bottom:1rem;
     background-color: rgb(16, 214, 181);
+    box-shadow:1px 1px 8px rgb(16, 214, 181);
     border-radius: 5px;
     color:rgb(0, 0, 0);
-    padding:0.3rem;
+    padding:0.5rem;
     cursor: pointer;
 }
+
 a{
     text-decoration: none;
     cursor: pointer;
