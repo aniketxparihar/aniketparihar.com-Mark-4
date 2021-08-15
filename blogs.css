@@ -1,45 +1,46 @@
 h1{
-    font-size: 5rem;
+    font-size: 3rem;
+    font-family: monospace;
+    border-bottom:5px solid blue;
 }
 .heading{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 .back{
-    background-color: rgb(240, 164, 24);
-    padding:1rem;
+    background-color: rgb(24, 125, 240);
     color: rgb(255, 255, 255);
     border-radius:5px;
+     font-size:1rem;
+    padding:0.5rem;
 }
 
 .blogs{
      display:flex;
-    flex-wrap: wrap;
-    align-items: center;
+     flex-direction: column;
     justify-content: center;
-    
+    align-items: center;
 }
 .blog{
     display:flex;
     flex-direction: column;
-    justify-content: center;
-    padding:2.5rem;
+    padding:1rem;
     margin:2rem;
-    border:0.5px solid rgb(255, 255, 255);
-    height:8rem;
+    height:16rem;
     width:20rem;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
-    border:0.5px solid black;
     cursor: pointer;
-    overflow: hidden;
-    transform:scale(1);
-    
+    border-bottom:5px solid rgb(8, 113, 145);
+    transform:scale(0.9);
 }
 img{
     height:300px;
+    border: radius 10px;
+    
 }
 
 .back{
@@ -49,19 +50,25 @@ a{
     text-decoration: none;
     color:white;
 }
+.bloglink{
+    color: rgb(4, 131, 250);
+    font-weight: 700;
+    
+}
 body{
     font-family: monospace;
+    background-color: rgb(255, 255, 255);
     
 }
 h2{
     text-decoration:solid;
-    font-size:1.3rem;
+    font-size:1.4rem;
     color:rgb(0, 0, 0);
 }
 h3{
    
     border-radius: 5px;
-    padding:1rem;
+    padding:0.2rem;
     opacity: 0.7;
 }
 h5{

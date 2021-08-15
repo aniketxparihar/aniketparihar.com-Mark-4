@@ -1,5 +1,7 @@
 h1{
-    font-size: 5rem;
+    font-size: 3rem;
+    font-family: monospace;
+    border-bottom:5px solid blue;
 }
 
 .projects{
@@ -11,11 +13,12 @@ h1{
     
 }
 img{
-    height:400px;
+    height:350px;
 }
 .back{
-    background-color: rgb(240, 164, 24);
-    padding:1rem;
+    background-color: rgb(24, 118, 240);
+    font-size:1rem;
+    padding:0.5rem;
     color: rgb(255, 255, 255);
     border-radius:5px;
 }
@@ -26,6 +29,7 @@ img{
     flex-direction: column;
 }
 .project{
+    font-size:0.9rem;
     margin-left:3rem;
     transform:scale(0.9);
      display:flex;
@@ -33,12 +37,17 @@ img{
     align-items: center;
     justify-content: center;
     padding:3rem;
-    margin:2rem;
-    height:8rem;
-    width:20rem;
-    background-color: rgb(243, 243, 243);
-    
+    margin:1rem;
+    height:10rem;
+    width:25rem;
+    background: rgb(255, 255, 255);
+    border:0.5px solid rgb(114, 114, 114);
+    border-bottom:5px solid rgb(14, 100, 139);
     border-radius:5px;
+
+}
+h2{
+    font-size:1.4rem;
 }
 .tag-container{
      display:flex;
@@ -47,9 +56,9 @@ img{
     justify-content: center;
 }
 .tags{
-    padding:0.2rem;
-    margin:0.3rem;
-    background-color: rgb(230, 185, 39);
+    padding:0.7rem;
+    margin:0.7rem;
+    background-color: rgb(19, 191, 214);
     border-radius: 5px;
 }
 body{
@@ -64,10 +73,9 @@ body{
 }
 links,h3{
     margin:1rem;
-    
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(16, 214, 181);
     border-radius: 5px;
-    color:white;
+    color:rgb(0, 0, 0);
     padding:0.3rem;
     cursor: pointer;
 }
