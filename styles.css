@@ -181,6 +181,7 @@ img{
     margin-bottom:10rem;
     display:flex;
     flex-direction: column;
+    text-align: center;
     
 }
 .card3{
@@ -216,7 +217,7 @@ img{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    
 }
 
 .about h1{
@@ -238,7 +239,8 @@ img{
     color:rgb(53, 52, 52);
     word-spacing: 2px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    word-spacing: 5px;;
+    word-spacing: 5px;
+    text-align: center;
 }
 .about a{
    
